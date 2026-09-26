@@ -1,0 +1,5 @@
+# 開發過程的研究紀錄與舊評測題目，只留在本機
+research-brainstorm-mechanism.*
+evals/
+
+.DS_Store
