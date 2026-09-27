@@ -1,12 +1,12 @@
 ---
-name: sdlc-brainstorm
+name: system-design-interview
 description: 把尚未定形的產品或工程構想，透過一次一題的文字問答收斂成使用者確認過的設計，並輸出不依賴對話也能接手的交接文件。適用於使用者想先釐清方向、比較做法、把想法整理成可交接的設計時；需求已明確、只要直接實作、修錯或查資料時不適用。
 license: MIT
 argument-hint: "[想討論的構想或問題]"
 disable-model-invocation: true
 ---
 
-# sdlc-brainstorm：把構想問成可交接的設計
+# system-design-interview：把構想問成可交接的設計
 
 這支 skill 有兩項產出：一份**使用者認得出、也改得動的共同理解**，以及一份**下一階段不必重讀對話就能接手的交接**。問答只是手段。判斷做得好不好，要看最後的設計是否忠於使用者想達成的事，以及接手的人能否分清哪些是決定、哪些只是建議。
 

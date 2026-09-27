@@ -1,4 +1,4 @@
-# sdlc-brainstorm
+# system-design-interview
 
 把一個還沒想清楚的產品或工程構想，透過一次一題的文字問答，收斂成你確認過的設計，並寫成一份**不用重讀對話也能接手**的交接文件。
 
@@ -42,33 +42,33 @@
 
 ## 安裝
 
-資料夾名稱必須是 `sdlc-brainstorm`，與 `SKILL.md` 裡的 `name` 相同。
+資料夾名稱必須是 `system-design-interview`，與 `SKILL.md` 裡的 `name` 相同。
 
 ### Claude Code
 
 所有專案都能用（使用者層級）：
 
 ```bash
-git clone <本 repo 網址> ~/.claude/skills/sdlc-brainstorm
+git clone <本 repo 網址> ~/.claude/skills/system-design-interview
 ```
 
 只在某個專案用（專案層級），在專案根目錄執行：
 
 ```bash
-git clone <本 repo 網址> .claude/skills/sdlc-brainstorm
+git clone <本 repo 網址> .claude/skills/system-design-interview
 ```
 
 裝好後開一個新的 session，輸入：
 
 ```text
-/sdlc-brainstorm 想討論的構想或問題
+/system-design-interview 想討論的構想或問題
 ```
 
 在 Claude Code 裡，這個 skill 設定為**只能手動呼叫**（`disable-model-invocation: true`），不會在無關的任務中自動載入。
 
 ### 其他支援 Agent Skills 的工具
 
-把 `sdlc-brainstorm` 資料夾放到該工具讀取 skill 的目錄，位置請見各工具的文件。`disable-model-invocation` 與 `argument-hint` 是 Claude Code 專用的欄位，其他工具可能會忽略，改依 `description` 判斷何時自動載入。
+把 `system-design-interview` 資料夾放到該工具讀取 skill 的目錄，位置請見各工具的文件。`disable-model-invocation` 與 `argument-hint` 是 Claude Code 專用的欄位，其他工具可能會忽略，改依 `description` 判斷何時自動載入。
 
 ## 語言
 
