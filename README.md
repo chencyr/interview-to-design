@@ -49,13 +49,13 @@
 所有專案都能用（使用者層級）：
 
 ```bash
-git clone <本 repo 網址> ~/.claude/skills/interview-to-design
+git clone https://github.com/chencyr/interview-to-design ~/.claude/skills/interview-to-design
 ```
 
 只在某個專案用（專案層級），在專案根目錄執行：
 
 ```bash
-git clone <本 repo 網址> .claude/skills/interview-to-design
+git clone https://github.com/chencyr/interview-to-design .claude/skills/interview-to-design
 ```
 
 裝好後開一個新的 session，輸入：
